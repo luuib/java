@@ -1,20 +1,20 @@
-var num1= 100;
-var num2= 10;
+console.log("Bom dia, Mundo ;p")
 
-///console.log (num1=num2)
-
-var soma
-
-function calcularSoma (num1,num2) {
-  soma= num1 + num2;
-  return soma;
+function Cubo (num){
+    return num * num * num;
 }
 
-resultado = calcularSoma(num1,num2);
-console.log('A soma é',num1 ,'e' ,num2,'é',resultado )
+var num = 8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+var cuboDoNum = Cubo(num);
 
-num1=300;
-num2=40;
+console.log("O cubo de " + num + " é " + cuboDoNum)
 
-resultado = calcularSoma(num1,num2);
-console.log("A soma é",resultado )
+function areaDoTriangulo(base,altura){
+  return (base, altura) / 2;
+}
+
+var base= 15
+var altura= 14
+areaDoTriangulo(base, altura);
+
+console.log("a area do triangulo é" + areaDoTriangulo)
